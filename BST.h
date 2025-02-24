@@ -119,7 +119,7 @@ void treeOrder( TreeNodePtr treePtr ,int count)
       treeOrder( treePtr->rightPtr, count ); //Recursion to the left
 
       for(int i = 1;i < count;i++){
-         printf("     ");
+         printf("   ");
       }
       printf("%3d\n",treePtr->data) ;  //print the value 
 
